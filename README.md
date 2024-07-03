@@ -7,7 +7,7 @@ This project is a MERN Stack web application for food delivery built using the M
 
 ## Authors
    *Training project :- Food Delivery Website*
-   Course:B.C.A. Semester:4
+   Course:B.C.A.   Semester:4
 - *Awadhesh Kumar*
 - *Ansh Gupta*
 - *Anshika Shukla*
@@ -57,14 +57,9 @@ Ensure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
-   bash
-   git clone https://github.com/rishabhgupta2004/HOMEHEAVEN.git
-   cd homeheaven
-   git clone https://github.com/Deepanshishukla24/HOMEHEAVEN.git
    
 
-2. Install the dependencies for both the client and server:
+1. Install the dependencies for both the client and server:
    bash
    cd client
    npm install
@@ -72,16 +67,16 @@ Ensure you have the following installed:
    npm install
    
 
-3. Set up environment variables:
+2. Set up environment variables:
 
-   Create a .env file in the server directory and add your MongoDB URI and JWT secret:
+   Create a `.env` file in the `server` directory and add your MongoDB URI and JWT secret:
 
    plaintext
    MONGODB_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
    
 
-   Create a .env file in the client directory and add your Firebase configuration:
+   Create a `.env` file in the `client` directory and add your Firebase configuration:
 
    plaintext
    REACT_APP_FIREBASE_API_KEY=your_api_key
@@ -104,19 +99,19 @@ Ensure you have the following installed:
    bash
    cd client
    npm start
-   
+   ```
 
 3. Open your browser and navigate to http://localhost:4000 to see the application in action.
 
 ## Contributing
 
-We welcome contributions to HomeHeaven! Please follow these steps:
+We welcome contributions to Food Delivery Website! Please follow these steps:
 
 1. Fork the repository
 2. Create a new branch (git checkout -b feature-branch)
 3. Commit your changes (git commit -am 'Add new feature')
 4. Push to the branch (git push origin feature-branch)
-5. Create a new Pull Request
+5. Create a new Pull Request
 
 
 
